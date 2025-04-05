@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaurav Bhargav | Portfolio</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="canvas-container"></div>
+  
+  <nav class="navbar">
+    <div class="logo">Gaurav</div>
+    <div class="nav-links">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+  </nav>
+  
+  <section class="hero" id="home">
+    <div class="container">
+      <p class="greeting">Hello, I'm</p>
+      <h1>Gaurav Bhargav</h1>
+      <h2>Web Developer & Designer</h2>
+      <a href="#projects" class="cta-button">View My Work</a>
+    </div>
+    <div class="scroll-indicator">
+      <p>SCROLL DOWN</p>
+      <div class="scroll-icon"></div>
+    </div>
+  </section>
+  
+  <section class="about" id="about">
+    <div class="container">
+      <h3 class="section-title">About Me</h3>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I'm a passionate web developer and designer with a love for creating elegant, functional digital experiences. With 5+ years of experience in the industry, I specialize in crafting beautiful websites and applications that not only look great but perform exceptionally.</p>
+          <p>My approach combines creativity with technical precision. I believe that good design should be both visually appealing and user-friendly, and I strive to create work that meets both criteria. When I'm not coding or designing, you can find me exploring new technologies, hiking in nature, or enjoying a good book.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-item">
+            <div class="stat-number">5+</div>
+            <div class="stat-text">Years Experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">50+</div>
+            <div class="stat-text">Projects Completed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">30+</div>
+            <div class="stat-text">Happy Clients</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">12</div>
+            <div class="stat-text">Awards Received</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="projects" id="projects">
+    <div class="container">
+      <h3 class="section-title">My Projects</h3>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-img">
+            <img src="/api/placeholder/400/320" alt="Project 1" />
+          </div>
+          <div class="project-content">
+            <h4 class="project-title">E-Commerce Website</h4>
+            <p class="project-desc">A modern e-commerce platform with a sleek UI and robust backend functionality.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">React</span>
+            </div>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-img">
+            <img src="/api/placeholder/400/320" alt="Project 2" />
+          </div>
+          <div class="project-content">
+            <h4 class="project-title">Travel Agency App</h4>
+            <p class="project-desc">A comprehensive travel booking application with personalized recommendations.</p>
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Node.js</span>
+              <span class="project-tag">MongoDB</span>
+            </div>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-img">
+            <img src="/api/placeholder/400/320" alt="Project 3" />
+          </div>
+          <div class="project-content">
+            <h4 class="project-title">Portfolio Website</h4>
+            <p class="project-desc">A creative portfolio for a digital artist with interactive galleries.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">Three.js</span>
+            </div>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="contact" id="contact">
+    <div class="container">
+      <h3 class="section-title">Get In Touch</h3>
+      <div class="contact-content">
+        <div class="contact-form">
+          <form>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i>📍</i>
+            </div>
+            <div class="contact-text">
+              <h4>Location</h4>
+              <p>123 Main Street, City, Country</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i>📧</i>
+            </div>
+            <div class="contact-text">
+              <h4>Email</h4>
+              <p>hello@gauravbhargav.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i>📱</i>
+            </div>
+            <div class="contact-text">
+              <h4>Phone</h4>
+              <p>+91 7850811550</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link">𝕏</a>
+            <a href="#" class="social-link">in</a>
+            <a href="#" class="social-link">f</a>
+            <a href="#" class="social-link">🐙</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p class="footer-text">© 2025 Gaurav Bhargav. All Rights Reserved.</p>
+  </footer>
+
+  <script src="animation.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
